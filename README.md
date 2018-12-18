@@ -38,6 +38,8 @@ If you have suggestions or improvements, I welcome pull requests.
 - [ ] code the countdown
 	- [ ] allow user to specify number of minutes
 	- [ ] put a button to start the timer
+	- [ ] put a button to pause the timer
+	- [ ] put a button to stop the timer (and track the ending time)
 - [ ] display start and end times
 - [ ] allow for a paragraph with additional info
 - [ ] write CSS code to theme the thing
