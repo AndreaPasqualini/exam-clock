@@ -6,7 +6,8 @@ This is supposed to be a little JavaScript utility that displays:
 - a clock with the current date and time, as reported on the local machine that runs this code;
 - a countdown timer for a user-input amount of minutes;
 - the time when the timer has been started;
-- the time when the timer will stop.
+- the time when the timer will stop; and
+- (_optional_) additional info/reminders to students (e.g., "calculators not allowed").
 
 I am writing this because sometimes I proctor exams.
 When I do, I happen to set up a projector in the room with the following screen:
@@ -28,3 +29,17 @@ However, a downside of the [MIT license](https://en.wikipedia.org/wiki/MIT_Licen
 
 Hence, you are encouraged to review the code before you use it.
 If you have suggestions or improvements, I welcome pull requests.
+
+
+## Development roadmap
+
+- [x] code a working, self-updating clock
+- [ ] display current date
+- [ ] code the countdown
+	- [ ] allow user to specify number of minutes
+	- [ ] put a button to start the timer
+- [ ] display start and end times
+- [ ] allow for a paragraph with additional info
+- [ ] write CSS code to theme the thing
+	- [ ] choose layout depending on whether additional info is present
+	- [ ] make elements' size dependent on screen real estate
