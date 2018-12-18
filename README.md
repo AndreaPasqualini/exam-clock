@@ -43,3 +43,5 @@ If you have suggestions or improvements, I welcome pull requests.
 - [ ] write CSS code to theme the thing
 	- [ ] choose layout depending on whether additional info is present
 	- [ ] make elements' size dependent on screen real estate
+	- [ ] add state-dependent cosmetics (e.g., flashing red background on timer at the end)
+- [ ] bundle everything in one convenient, portable file for everyday deployment ([no, no frickin' way I'm bundling this in Electron](http://tonsky.me/blog/disenchantment/))
