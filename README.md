@@ -23,11 +23,9 @@ This project (_finally_) gives me a bit of motivation to learn a bit of HTML, Ja
 ## Disclaimers
 
 You can use this code, see the [license](./LICENSE).
-However, a downside of the [MIT license](https://en.wikipedia.org/wiki/MIT_License) is that I will not be responsible if you rely on this, especially for mission-critical jobs:
-
-``` THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND ```
-
+However, a downside of the [MIT license](https://en.wikipedia.org/wiki/MIT_License) is that I will not be responsible if you rely on this, especially for mission-critical jobs: ` THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND `.
 Hence, you are encouraged to review the code before you use it.
+
 If you have suggestions or improvements, I welcome pull requests.
 
 
