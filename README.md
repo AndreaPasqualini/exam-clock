@@ -38,6 +38,7 @@ If you have suggestions or improvements, I welcome pull requests.
 	- [ ] put a button to start the timer
 	- [ ] put a button to pause the timer
 	- [ ] put a button to stop the timer (and track the ending time)
+	- [ ] put a button to add minutes to a running timer
 - [ ] display start and end times
 - [ ] allow for a paragraph with additional info
 - [ ] write CSS code to theme the thing
