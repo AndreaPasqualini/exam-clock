@@ -1,20 +1,15 @@
-<html>
+<!DOCTYPE html>
+
+<html lang="en_US">
 <head>
   <title>Javascript Clock</title>
-  <script type="text/javascript">
-    function clk() {
-      var a = new Date();
-      document.getElementById("disp").innerHTML = a.getHours() + ":" + a.getMinutes() + ":" + a.getSeconds() ;
-
-    }
-    window.onload = function() {
-      setInterval(clk, 100);
-    };
-  </script>
+  <script type="text/javascript", src="js/clock.js"></script>
 </head>
 
 <body>
-  <div id="disp"></div>
+  <div id="time"></div>
+  <div id="date"></div>
+  <div id="countdown"></div>
 </body>
 
 </html>
