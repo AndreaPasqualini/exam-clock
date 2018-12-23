@@ -1,15 +1,14 @@
 #time {
   text-align: center;
-  font-size: 72px;
+  font-size: 15vw;
   font-weight: bold;
   font-family: sans-serif;
   color: black;
-  <!--- --->
 }
 
 #date {
   text-align: center;
-  font-size: 24px;
+  font-size: 5vw;
   font-family: sans-serif;
   color: gray;
 }
