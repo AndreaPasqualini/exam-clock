@@ -32,7 +32,7 @@ If you have suggestions or improvements, I welcome pull requests.
 ## Development roadmap
 
 - [x] code a working, self-updating clock
-- [ ] display current date
+- [x] display current date
 - [ ] code the countdown
 	- [ ] allow user to specify number of minutes
 	- [ ] put a button to start the timer
