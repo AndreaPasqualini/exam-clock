@@ -1,0 +1,15 @@
+#time {
+  text-align: center;
+  font-size: 72px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+  <!--- --->
+}
+
+#date {
+  text-align: center;
+  font-size: 24px;
+  font-family: sans-serif;
+  color: gray;
+}
