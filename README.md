@@ -42,6 +42,7 @@ If you have suggestions or improvements, I welcome pull requests.
 - [ ] display start and end times
 - [ ] allow for a paragraph with additional info
 - [ ] write CSS code to theme the thing
+	- [x] choose clock & date size depending on viewport
 	- [ ] choose layout depending on whether additional info is present
 	- [ ] make elements' size dependent on screen real estate
 	- [ ] add state-dependent cosmetics (e.g., flashing red background on timer at the end)
