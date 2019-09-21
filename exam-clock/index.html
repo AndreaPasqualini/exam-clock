@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en_US">
+
 <head>
   <meta charset="utf-8">
   <title>Exam Clock</title>
@@ -11,19 +12,48 @@
 </head>
 
 <body>
-  <div id="time"></div>
-  <div id="date"></div>
-  <div id="countdown">
-    <button id="cdStartButton">
-      Start
-    </button>
-    <button id="cdPauseButton">
-      Pause
-    </button>
-    <button id="cdStopButton">
-      Stop
-    </button>
+
+  <!-- Upper half section: clock and date -->
+
+  <div id=currentTime>
+    <div id="time"></div>
+    <div id="date"></div>
   </div>
+
+
+  <!-- Lower half section: countdown information -->
+
+  <div id=examLength>
+    <div id="startStopInfo">
+      Start time: <span id="startTime"></span>
+      <br>
+      Stop time: <span id="stopTime"></span>
+    </div>
+    <div id="countdownArea">
+      <div id="countdownText">
+        Remaining time: <input placeholder="Minutes"></input>
+      </div>
+      <div id="countdownButtons">
+        <button id="cdStartButton">
+          Start
+        </button>
+        <button id="cdPauseButton">
+          Pause
+        </button>
+        <button id="cdStopButton">
+          Stop
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Lower right section: optional notes -->
+
+  <div id="notesArea">
+    <textarea placeholder="Special notes"></textarea>
+  </div>
+
 </body>
 
 </html>
