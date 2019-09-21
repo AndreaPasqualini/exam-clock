@@ -1,3 +1,18 @@
+/* Document-wise defaults */
+
+* {
+  font-family: 'Fira Code';
+  font-size: 16px;
+}
+
+
+/* Upper half section: clock and date */
+
+#currentTime {
+  height: 48vh;
+  background: #DDDDFF;
+}
+
 #time {
   text-align: center;
   font-size: 15vw;
