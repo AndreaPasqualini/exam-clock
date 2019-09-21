@@ -12,6 +12,11 @@ function countdown() {
   timer.onTick(format);
 
   document.getElementById('cdStartButton').addEventListener('click', function () {
+    var now = new Date();
+    var hour = now.getHours();
+    var minute = now.getMinutes();
+    var second = now.getSeconds();
+    document.getElementById('startTime').innerHTML = hour + ":" + minute + ":" + second;
     timer.start();
   });
 };
